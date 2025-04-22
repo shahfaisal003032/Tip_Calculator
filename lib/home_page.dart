@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> {
             const Text("Total p/person",
                 style: TextStyle(fontSize: 19, fontWeight: FontWeight.w700)),
             Text.rich(TextSpan(
-                text: "\₹",
+                text: "₹",
                 style: const TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.w900,
@@ -108,7 +108,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     Text.rich(TextSpan(
-                        text: "\₹",
+                        text: "₹",
                         style: const TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.w900,
@@ -134,7 +134,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     Text.rich(TextSpan(
-                        text: "\₹",
+                        text: "₹",
                         style: const TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.w900,
@@ -191,7 +191,7 @@ class _HomePageState extends State<HomePage> {
               decoration: InputDecoration(
                   fillColor: const Color.fromARGB(255, 240, 250, 250),
                   filled: true,
-                  prefixText: "\₹",
+                  prefixText: "₹",
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8),
                       borderSide: const BorderSide(
